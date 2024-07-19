@@ -1,0 +1,49 @@
+@font-face { 
+    font-family: Babas;
+     src: url('./Materiale/Fonturi/BebasNeue-Regular.otf'); 
+} 
+
+body{
+    background-color: #f8f9fa;
+}
+
+#Navigatie{
+background-color: #343a40;
+-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+#NavbarItem{
+    color: #F8F8FF;
+    font-family:serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#NavbarItem:hover{
+    color: #ced4da;
+    -webkit-animation: text-shadow-drop-center 0.6s both;
+    animation: text-shadow-drop-center 0.6s both;
+}
+
+#NavbarBrand{
+    font-size: 38px;
+    font-family: Babas;
+    font-weight: bold;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
+}
+
+footer{
+    background-color: #343a40 ;
+    color: #F8F8FF;
+	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.spacer {
+    height: 50px;
+}
+
