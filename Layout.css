@@ -74,3 +74,12 @@ footer{
 section{
     overflow-x: hidden;
 }
+
+#sec2 #contentSectiune {
+    color:blueviolet;
+}
+
+#sec3 #contentSectiune {
+    color: #7CFF01;
+}
+

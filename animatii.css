@@ -100,7 +100,7 @@
   section.show-animate .animate {
     opacity: 1;
     filter: blur(0);
-    transition: 1s;
+    transition: 0.9s;
 
   }
 
@@ -110,7 +110,7 @@
   }
 
   #sec1 .animate{
-    transform: 0.5s translateX(-100%);
+    transform:  translateX(-100%);
   }
 
   #sec1.show-animate .animate {
