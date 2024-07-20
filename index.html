@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
-<body style="background-color: #101720;">
+<body style="background-color: #101720;" data-spy="scroll" data-target="#navigatie" data-offset="0">
     <!-- Header -->
-    <header class="">
+    <header style="">
         <div class="container-fluid shadow-sm fixed-top " id="Navigatie">
-        <nav class="navbar navbar-expand-lg navbar-dark p-0 px-sm-5 ">
-            <a class="navbar-brand" id="NavbarBrand" href="#">Alexandru Balaban</a>
+        <nav id="navigatie" class="navbar navbar-expand-lg navbar-dark p-0 px-sm-5 ">
+            <a class="navbar-brand" id="NavbarBrand" href="#Acasa">Alexandru Balaban</a>
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,10 +26,10 @@
                         <a class="nav-link pr-4" id="NavbarItem" href="#">About </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pr-4" id="NavbarItem" href="#">Tech Stack</a>
+                        <a class="nav-link pr-4" id="NavbarItem" href="#Stacks">Tech Stack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pr-4" id="NavbarItem" href="#">Portofolio</a>
+                        <a class="nav-link pr-4" id="NavbarItem" href="#Projects">Portofolio</a>
                     </li>
                 </ul>
             </div>
@@ -41,23 +41,28 @@
 
     <!-- About -->
     <section id="sec1" class="show-animate">
-      <div  class="d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
+      <div id="Acasa"  class="d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
           <p class="display-4 animate" id="titluSectiune">Hi, I'm Alex!</p>
           <p class="h4 text-center animate" id="contentSectiune">Acesta este un text informativ</p>
       </div>   
   </section>
       <!-- Tech Stack -->
       <section id="sec2" class="show-animate">
-      <div  class="d-flex flex-column align-items-center justify-content-center" style="height: 70vh;">
+      <div id="Stacks"  class="d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
           <p class="display-4 animate" id="titluSectiune">My tech stack</p>
           <p class="h4 text-center animate" id="contentSectiune">Acesta este un text informativ</p>
+          <h3 id="sec3" class="text-white text-center animate">marcel</h3>
+          <h3 class="text-white text-center animate">marcel</h3>
+          <h3 class="text-white text-center animate">marcel</h3>
+
       </div> 
   </section>
         <!-- Projects/portofolio  -->
-        <section id="sec3" class="show-animate">
-      <div  class="d-flex flex-column align-items-center justify-content-center" style="height: 90vh;">
+        <section  id="sec3" class="show-animate">
+      <div id="Projects" class="d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
           <p class="display-4 animate" id="titluSectiune">Projects</p>
           <p class="h4 text-center animate" id="contentSectiune">Acesta este un text informativ</p>
+
       </div> 
   </section>  
 
