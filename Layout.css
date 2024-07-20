@@ -3,6 +3,10 @@
      src: url('./Materiale/Fonturi/BebasNeue-Regular.otf'); 
 } 
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #101720;
 }
