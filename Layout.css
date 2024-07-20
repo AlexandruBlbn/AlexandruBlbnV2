@@ -4,14 +4,20 @@
 } 
 
 body{
-    background-color: #f8f9fa;
+    background-color: #101720;
 }
 
 #Navigatie{
-background-color: #343a40;
+
 -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+#Navigatie.scrolled {
+    background-color: #343a40 !important;
+    transition: background-color 200ms linear;
+
+  }
 
 #NavbarItem{
     color: #F8F8FF;
@@ -27,7 +33,7 @@ background-color: #343a40;
 }
 
 #NavbarBrand{
-    font-size: 38px;
+    font-size: 32px;
     font-family: Babas;
     font-weight: bold;
     word-spacing: 10px;
@@ -47,3 +53,24 @@ footer{
     height: 50px;
 }
 
+#Welcoming{
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.2s both;
+            font-family:sans-serif;
+}
+
+
+#titluSectiune{
+    color: #F8F8FF;
+    font-weight: 400;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#contentSectiune{
+    color: aqua;
+    font-weight: 500;
+}
+
+section{
+    overflow-x: hidden;
+}
